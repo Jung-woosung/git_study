@@ -56,7 +56,7 @@ void swap(int a, int b) {
 }
 */
 
-
+/*
 // 주소값 전달 방식
 
 #include<stdio.h>
@@ -86,4 +86,8 @@ void swap(int* ptrA, int* ptrB) {
 	*ptrB = temp;
 
 	printf("swap()함수에서 a = %d, b = %d\n", *ptrA, *ptrB);
-}
+}*/
+
+
+#include<stdio.h>
+#pragma warning (disable: 4996)
